@@ -3,7 +3,7 @@ title: Build and Deploy a Web Site with Github Action
 published: 2024-09-02
 tags: [Blogging, Demo, Website, Github]
 category: Website
-draft: true
+draft: false
 ---
 
 In this guide, we will show you how to build and deploy a blog with Github Action.
