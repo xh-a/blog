@@ -30,7 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: npm install, build, and test
+      - name: npm install, build.yml, and test
         run: |
           npm install -g pnpm
           pnpm install
