@@ -19,6 +19,8 @@ import {parseDirectiveNode} from "./src/plugins/remark-directive-rehype.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs"
 import {remarkExcerpt} from "./src/plugins/remark-excerpt.js";
 
+import mdx from '@astrojs/mdx'
+
 const oklchToHex = (str) => {
   const DEFAULT_HUE = 250
   const regex = /-?\d+(\.\d+)?/g
@@ -35,6 +37,7 @@ export default defineConfig({
   base: "/blog_web/",
   trailingSlash: "always",
   integrations: [
+    mdx(),
     tailwind(),
     swup({
       theme: false,

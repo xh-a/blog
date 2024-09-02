@@ -1,10 +1,5 @@
-import type {
-  LicenseConfig,
-  NavBarConfig,
-  ProfileConfig,
-  SiteConfig,
-} from './types/config'
-import { LinkPreset } from './types/config'
+import type {LicenseConfig, NavBarConfig, ProfileConfig, SiteConfig,} from './types/config'
+import {LinkPreset} from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'hui blog',
@@ -38,6 +33,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
+    LinkPreset.Resume,
     {
       name: 'GitHub',
       url: 'https://github.com/xh-a/blog',     // Internal links should not include the base path, as it is automatically added

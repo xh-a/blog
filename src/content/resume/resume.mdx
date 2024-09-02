@@ -1,0 +1,45 @@
+---
+title: My Page title
+---
+
+import { Image } from 'astro:assets';
+import education_img from './graduation-cap-solid.svg';
+
+
+
+<div className="education-container">
+  <img src={education_img.src} alt="education_img" width="40" height="40" />
+  <span className="education-title">education</span>
+</div>
+
+<ul className="education-list">
+<li>硕士, 中国科学技术大学, 2024-现在</li>
+<li>本科, 东北大学, 2020-2024</li>
+<li>CET-6: 576, CET-4: 606</li>
+</ul>
+
+
+<style jsx>
+{`
+  .education-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    height: 40px;
+    width: 100%;
+  }
+
+  .education-title {
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5; /* 调整行间距 */
+  }
+
+  .education-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.8; /* 调整列表行间距 */
+  }
+`}
+</style>
