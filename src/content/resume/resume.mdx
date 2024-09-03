@@ -4,8 +4,12 @@ title: My Page title
 
 import { Image } from 'astro:assets';
 import education_img from './graduation-cap-solid.svg';
-
-
+import paper_img from './paper.svg';
+import patent_img from './patent.svg';
+import contest_img from './contest.svg';
+import program_img from './program.svg';
+import pratice_img from './pratice.svg';
+import skill_img from './skill.svg';
 
 <div className="education-container">
   <img src={education_img.src} alt="education_img" width="40" height="40" />
@@ -13,11 +17,66 @@ import education_img from './graduation-cap-solid.svg';
 </div>
 
 <ul className="education-list">
-<li>硕士, 中国科学技术大学, 2024-现在</li>
+<li>硕士, 中国科学技术大学, iVC lab, 2024-现在</li>
 <li>本科, 东北大学, 2020-2024</li>
 <li>CET-6: 576, CET-4: 606</li>
 </ul>
 
+
+<div className="education-container">
+  <img src={paper_img.src} alt="paper_img" width="31" height="31" />
+  <span className="education-title">papers</span>
+</div>
+
+<ul className="education-list">
+<li>待写</li>
+</ul>
+
+<div className="education-container">
+  <img src={patent_img.src} alt="patent_img" width="33" height="33" />
+  <span className="education-title">patent</span>
+</div>
+
+<ul className="education-list">
+<li>待写</li>
+</ul>
+
+<div className="education-container">
+  <img src={contest_img.src} alt="contest_img" width="31" height="31" />
+  <span className="education-title">contest</span>
+</div>
+
+<ul className="education-list">
+<li>第47届ICPC亚洲区域赛(合肥站)金牌</li>
+</ul>
+
+<div className="education-container">
+  <img src={program_img.src} alt="program_img" width="40" height="40" />
+  <span className="education-title">program</span>
+</div>
+
+<ul className="education-list">
+<li>JPEG无损压缩方法的研究</li>
+</ul>
+
+<div className="education-container">
+  <img src={pratice_img.src} alt="pratice_img" width="35" height="35" />
+  <span className="education-title">pratice</span>
+</div>
+
+<ul className="education-list">
+<li>无</li>
+</ul>
+
+<div className="education-container">
+  <img src={skill_img.src} alt="skill_img" width="35" height="35" />
+  <span className="education-title">skill</span>
+</div>
+
+<ul className="education-list">
+<li>端到端图像压缩</li>
+<li>java前后端、vue、astro、docker等框架的构建和部署</li>
+</ul>
 
 <style jsx>
 {`
@@ -34,12 +93,14 @@ import education_img from './graduation-cap-solid.svg';
     font-weight: bold;
     font-size: 20px;
     line-height: 1.5; /* 调整行间距 */
+    font-size: 25px;
   }
 
   .education-list {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.8; /* 调整列表行间距 */
+    font-size: 20px;
   }
 `}
 </style>
