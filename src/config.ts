@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
     credit: {
       enable: true,         // Display the credit text of the banner image
       text: 'for you',              // Credit text to be displayed
-      url: 'https://www.pixiv.net/artworks/121290061'                // (Optional) URL link to the original artwork or artist's page
+      url: 'https://xh-a.github.io/home/'                // (Optional) URL link to the original artwork or artist's page
     }
   },
   favicon: [    // Leave this array empty to use the default favicon
