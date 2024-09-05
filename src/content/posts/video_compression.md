@@ -24,3 +24,8 @@ draft: false
         -  The first end-to-end neural video codec that support a large quality and bitrate range in a single model.
 * Neural Image Codec
     * [EVC: Towards Real-Time Neural Image Compression with Mask Decay](https://openreview.net/forum?id=XUxad2Gj40n), ICLR 2023, in [this folder](./EVC/).
+
+
+# RA: random access
+- CANF
+- B-CANF
