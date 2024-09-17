@@ -28,4 +28,6 @@ draft: false
 
 # RA: random access
 - CANF
+- CANF-VC
+- CANF-VC++
 - B-CANF
